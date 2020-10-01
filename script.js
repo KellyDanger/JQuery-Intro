@@ -6,8 +6,10 @@ $(document).ready(onReady);//the html isn't technically ready until all the even
 function onReady(){//does a lot of setup
   console.log('hello from jq')
   //add event listeners aka click events
-  
+
   //get data to display on the page
+  //$() <---this grabs an element in JQuery
+  $()
 };
 
 function hello(){
