@@ -35,9 +35,11 @@ function deleteFunc(){
 }//end deleteFunc
 
 function changeColorFunc(){
-  console.log('change Color');
   //rather than manipulating css within JS...you can just add a class to an element with the .addClass method...and just have this class set up in CSS
-  $(this).parent().addClass('pinkColor');
+  //$(this).parent().addClass('pinkColor');
+  //**ORRRRR you can toggle */
+  $(this).parent().toggleClass('pinkColor');
+
 }//end changeColorFunc
 
 //THE BUTTON CLICK IS EVENT #3
